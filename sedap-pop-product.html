@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roti Canai | Al Ansar Premium Food</title>
+  <meta name="description" content="Halal frozen food from Al Ansar Premium Food, Penang. How to cook it, what's in it, and how to order on WhatsApp.">
+  <meta name="theme-color" content="#FFB81C">
+  <link rel="icon" href="assets/img/brand/logo-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="assets/css/sedap-pop.css">
+  <script>document.documentElement.classList.add(matchMedia("(prefers-reduced-motion: reduce)").matches ? "reduce-motion" : "motion");</script>
+</head>
+<body class="sp sp-product">
+<script src="assets/js/icons.js"></script>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar" data-bar>
+  <nav class="bar__left" aria-label="Main">
+    <button class="bar__link bar__drop" type="button" aria-expanded="false" aria-controls="mega">Products <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"/></svg></button>
+    <a class="bar__link" href="sedap-pop.html#kit">Wholesale</a>
+    <a class="bar__link" href="#cook">How to cook</a>
+  </nav>
+  <a class="bar__brand" href="sedap-pop.html" aria-label="Al Ansar Premium Food, home">
+    <svg class="bar__mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+    <span>Al Ansar</span>
+  </a>
+  <div class="bar__right">
+    <a class="bar__link bar__hide-sm" href="sedap-pop.html#contact">Contact</a>
+    <a class="pill pill--ink" data-order-simple><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg><span>Order now</span></a>
+  </div>
+  <div class="mega" id="mega" hidden>
+    <div class="mega__grid" data-mega></div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="pd-hero">
+    <div class="pd-left">
+      <span class="pd-best" data-best hidden>Best seller!</span>
+      <h1 class="pd-title" data-f="name"></h1>
+      <p class="pd-local" data-f="local"></p>
+      <p class="pd-price" data-price></p>
+      <p class="pd-intro" data-f="intro"></p>
+      <div class="pd-switch" data-switch aria-label="Switch product"></div>
+      <div class="pd-box">
+        <div class="pd-tabs" role="tablist" aria-label="How would you like to buy?">
+          <button type="button" role="tab" id="tab-order" aria-selected="true" aria-controls="panel-order">Order now</button>
+          <button type="button" role="tab" id="tab-ws" aria-selected="false" aria-controls="panel-ws" tabindex="-1">Wholesale</button>
+        </div>
+        <div class="pd-panel" id="panel-order" role="tabpanel" aria-labelledby="tab-order">
+          <div class="pd-order">
+            <div class="pd-qty">
+              <button type="button" data-qty="-1" aria-label="One less pack"><svg class="icon" aria-hidden="true"><use href="#i-minus"/></svg></button>
+              <output data-qty-out aria-live="polite">1</output>
+              <button type="button" data-qty="1" aria-label="One more pack"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></button>
+            </div>
+            <a class="pill pill--ink pill--lg" data-order><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Order on WhatsApp</a>
+          </div>
+        </div>
+        <div class="pd-panel" id="panel-ws" role="tabpanel" aria-labelledby="tab-ws" hidden>
+          <p>Restaurants, cafés and caterers buy by the carton. Tell us what you cook and how much.</p>
+          <a class="pill pill--ink pill--lg" data-wholesale><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Get wholesale prices</a>
+        </div>
+      </div>
+    </div>
+    <div class="pd-right">
+      <div class="rays" aria-hidden="true"></div>
+      <div class="fizz" aria-hidden="true"></div>
+      <div class="pd-stage"><img class="pd-img" data-img alt=""></div>
+      <div class="pd-thumbs" data-thumbs aria-label="Photos"></div>
+    </div>
+  </section>
+
+  <section class="pd-good" aria-labelledby="good-title">
+    <svg class="wave wave--top" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" style="color:var(--c-tint)"><path d="M0,60 C220,110 480,10 760,56 C1040,102 1240,30 1440,64 L1440,120 L0,120 Z" fill="currentColor"/></svg>
+    <div class="wrap pd-good__grid">
+      <div>
+        <h2 class="sr-only" id="good-title">All the good stuff</h2>
+        <svg class="pd-good__arc" viewBox="0 0 900 260" aria-hidden="true">
+          <defs><path id="good-arc" d="M40,240 Q450,-30 860,240"/></defs>
+          <text class="arc-text" text-anchor="middle"><textPath href="#good-arc" startOffset="50%">All the good stuff</textPath></text>
+        </svg>
+        <div class="pd-badges" data-badges></div>
+      </div>
+      <aside class="pd-facts" aria-labelledby="facts-title">
+        <h3 id="facts-title" data-f="name"></h3>
+        <p class="note">Nutrition per 100 g. Sample layout; Al Ansar will supply the lab figures.</p>
+        <dl data-nutri></dl>
+        <ul class="pd-facts__key" data-keyfacts></ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="tear" aria-labelledby="tear-title">
+    <div class="rays" aria-hidden="true"></div>
+    <div class="tear__inner">
+      <div class="tear__half tear__half--l" aria-hidden="true"><img data-tear alt=""></div>
+      <div class="tear__half tear__half--r" aria-hidden="true"><img data-tear alt=""></div>
+      <div class="tear__text">
+        <h2 id="tear-title" class="pop-title" data-f="tagline"></h2>
+        <p data-f="range"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pd-cook" id="cook" aria-labelledby="cook-title">
+    <div class="wrap">
+      <div class="pd-cook__head">
+        <h2 id="cook-title" class="ink-title" data-pop>How to cook it</h2>
+        <p>Straight from your freezer. Times are a guide; every stove is a little different.</p>
+      </div>
+      <ol class="pd-steps" data-steps></ol>
+      <div class="pd-pairs"><h3>Great with</h3><ul data-pairs></ul></div>
+    </div>
+  </section>
+
+  <section class="pd-loop" aria-labelledby="loop-title">
+    <svg class="wave wave--top" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" style="color:#FF6FB1"><path d="M0,70 C200,10 460,110 720,60 C980,10 1200,100 1440,40 L1440,120 L0,120 Z" fill="currentColor"/></svg>
+    <h2 id="loop-title" class="pop-title" data-pop>Sedap, says everyone.</h2>
+    <div class="pd-marquee" data-marquee><div class="pd-marquee__inner" data-love></div></div>
+  </section>
+
+  <section class="pd-more" aria-labelledby="more-title">
+    <svg class="wave wave--top" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" style="color:#F6F1FF"><path d="M0,60 C240,110 520,20 780,62 C1040,104 1260,30 1440,64 L1440,120 L0,120 Z" fill="currentColor"/></svg>
+    <div class="wrap">
+      <h2 id="more-title" class="ink-title" data-pop>Try the rest of the freezer</h2>
+      <div class="pd-more__grid" data-more></div>
+    </div>
+  </section>
+
+  <section class="faq" aria-labelledby="faq-title">
+    <div class="wrap faq__wrap">
+      <h2 id="faq-title" class="ink-title" data-pop>Got questions?</h2>
+      <div class="faq__list" data-faq></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot" id="contact">
+  <svg class="wave wave--top" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true" style="color:#FFB81C"><path d="M0,70 C220,20 460,110 720,66 C980,22 1220,100 1440,50 L1440,120 L0,120 Z" fill="currentColor"/></svg>
+  <div class="wrap foot__cta">
+    <h2 class="pop-title" data-pop>Hungry yet?</h2>
+    <div class="foot__ctas">
+      <a class="pill pill--ink pill--lg" data-order-simple><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg>Order on WhatsApp</a>
+      <a class="pill pill--white pill--lg" data-tel><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span data-c="phoneDisplay"></span></a>
+    </div>
+  </div>
+  <div class="wrap foot__cols">
+    <div class="foot__brand">
+      <svg class="foot__logo" viewBox="0 0 1272 1228" aria-label="Al Ansar Premium Food" role="img"><use href="#logo-full"/></svg>
+    </div>
+    <nav aria-label="Products" data-foot-products><h3>Products</h3></nav>
+    <div>
+      <h3>Talk to us</h3>
+      <a data-wa="Hi Al Ansar!">WhatsApp <span data-c="phoneDisplay"></span></a>
+      <a data-tel="2">Office <span data-c="phone2Display"></span></a>
+      <a data-mail data-c="email"></a>
+      <a data-map data-c="address"></a>
+    </div>
+    <div>
+      <h3>Follow</h3>
+      <div class="foot__social">
+        <a data-social="facebook" aria-label="Facebook"><svg class="icon" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+        <a data-social="instagram" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+        <a data-social="linktree" aria-label="Linktree"><svg class="icon" aria-hidden="true"><use href="#i-linktree"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <p class="foot__giant" aria-hidden="true">Al Ansar</p>
+  <div class="wrap foot__legal">
+    <span>© <span data-year></span> Al Ansar Premium Food Sdn Bhd (1587431-W)</span>
+    <span>Halal certified, MS1500</span>
+    <a href="index.html">Design concept B of 2: Sedap Pop. See concept A</a>
+  </div>
+</footer>
+
+<a class="wa-bubble" data-order-simple aria-label="Order on WhatsApp"><svg class="icon" aria-hidden="true"><use href="#i-whatsapp"/></svg></a>
+
+<script src="assets/js/vendor/gsap.min.js"></script>
+<script src="assets/js/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/js/vendor/SplitText.min.js"></script>
+<script src="assets/js/vendor/lenis.min.js"></script>
+<script src="assets/js/data/products.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/sedap-pop-common.js"></script>
+<script src="assets/js/sedap-pop-product.js"></script>
+</body>
+</html>
